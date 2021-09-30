@@ -128,7 +128,7 @@ def genetic_algorithm_stepwise(population, fitness_fn, gene_pool=[0, 1], f_thres
         # stores the individual genome with the highest fitness in the current population
         current_best = ''.join(max(population, key=fitness_fn))
         #print('Current best: {current_best}\t\tGeneration: {str(generation)}\t\tFitness: {fitness_fn(current_best)}\r', end='')
-        if (generation % 25 == 0) & (mute==False):
+        if (generation % 50 == 0) & (mute==False):
             print('Current best: %20s\tGeneration %d\tFitness: %d' \
              % (current_best, generation, fitness_fn(current_best)))
         
