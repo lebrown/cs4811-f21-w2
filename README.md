@@ -34,6 +34,7 @@ def fitness_fn(sample):
 1. Review the code in `ga.py`.
 2. Open the w2_q2.ibynb notebook and run the GA with the default parameters.  
 The GA reports out for each generation, the best individual (highest fitness), and the fitness function. 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/lebrown/cs4811-f21-w2/HEAD?filepath=w2_q2.ipynb)
 3. Explore the parameter space and answer the questions in **w2**.  
 
 The solution to Q2(a) is provided to help get you started on how to answer Q2(b) and Q2(c). 
